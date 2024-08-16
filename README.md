@@ -33,7 +33,7 @@ Welcome to the classic **Snake Game**! 🎮 This game combines nostalgia with mo
     ```
 2. Navigate into the project directory:
     ```bash
-    cd snake-game
+    cd SnakeGame
     ```
 3. Open `index.html` in your web browser to start playing.
 
