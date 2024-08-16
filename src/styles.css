@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#app {
+  text-align: center;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(15, 20px);
+  grid-template-rows: repeat(15, 20px);
+  gap: 1px;
+}
+
+.grid-cell {
+  width: 20px;
+  height: 20px;
+  background-color: #f0f0f0;
+}
+
+.snake-body {
+  background-color: #4caf50;
+}
+
+.apple {
+  background-color: #ff5722;
+}
